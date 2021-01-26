@@ -10,13 +10,3 @@ setTimeout(function(){
 	t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
 	document.head.appendChild(t);
 });
-
-// Variable for storing the reference to custom button
-var customButton = document.getElementById("custom-chatbox-button");
-// Attaching the function to click event
-customButton.onclick = function() {
-    // Variable for storing the plugin button
-    var pluginButton = document.getElementById("WACLauncher__Button");
-    // Simulating the click on plugin button
-    pluginButton.click();
-};
