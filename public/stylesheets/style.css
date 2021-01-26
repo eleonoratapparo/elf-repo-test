@@ -84,6 +84,6 @@ pre {
 	margin: 0;
 }
 
-#WACLauncher__Button {
+#WACContainer.WACContainer button.WACLauncher__Button.WAC__button--base {
     display: none;
 }
