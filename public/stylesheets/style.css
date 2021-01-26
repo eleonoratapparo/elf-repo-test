@@ -82,19 +82,3 @@ pre {
 	padding: 0;
 	margin: 0;
 }
-
-.WACLauncher__Button .WAC__button--base .WAC__button--primary {
-	display: none;
-}
-
-.img-button {
-	display: flex;
-	border: none;
-	cursor: pointer;
-	padding: 0;
-	background-color: white;
-	height: 56px;
-	width: 56px;
-	align-items: center;
-	justify-content: center;
-}
