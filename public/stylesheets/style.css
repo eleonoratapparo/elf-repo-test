@@ -56,10 +56,15 @@ h1 {
 }
 
 .img-button {
+	display: flex;
 	border: none;
 	cursor: pointer;
 	padding: 0;
 	background-color: white;
+	height: 56px;
+	width: 56px;
+	align-items: center;
+	justify-content: center;
 }
 
 table {
@@ -90,6 +95,6 @@ pre {
 	margin: 0;
 }
 
-#WACLauncher__Button {
+#WACContainer.WACContainer button.WACLauncher__Button.WAC__button--base {
     display: none;
 }
