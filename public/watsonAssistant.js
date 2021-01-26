@@ -16,7 +16,7 @@ var customButton = document.getElementById("custom-chatbox-button");
 // Attaching the function to click event
 customButton.onclick = function() {
     // Variable for storing the plugin button
-    var pluginButton = document.getElementById("watson-fab");
+    var pluginButton = document.getElementById("WACLauncher__Button");
     // Simulating the click on plugin button
     pluginButton.click();
 };
