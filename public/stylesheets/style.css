@@ -102,3 +102,11 @@ pre {
       background-repeat: no-repeat;
       display: block;
    }
+
+#WACLauncher__Button::before {
+      content: "";
+      background-image: url ('https://elf-app-assistant.eu-gb.mybluemix.net/images/penguin_icon_help.jpeg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: block;
+   }
