@@ -95,6 +95,10 @@ pre {
 	margin: 0;
 }
 
-#WACContainer.WACContainer button.WACLauncher__Button.WAC__button--base {
-    display: none;
-}
+#watson-fab-icon::before {
+      content: "";
+      background-image: url ('https://elf-app-assistant.eu-gb.mybluemix.net/images/penguin_icon_help.jpeg');
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      display: block;
+   }
