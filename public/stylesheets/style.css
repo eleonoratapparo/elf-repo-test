@@ -55,8 +55,11 @@ h1 {
 	color: #00aed1;
 }
 
-button {
-	border:0;
+.img-button {
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	background-color: white;
 }
 
 table {
@@ -87,6 +90,6 @@ pre {
 	margin: 0;
 }
 
-#WACContainer.WACContainer button.WACLauncher__Button.WAC__button--base {
+#WACLauncher__Button {
     display: none;
 }
