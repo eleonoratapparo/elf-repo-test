@@ -32,6 +32,10 @@ h1 {
 	font-size: 2em;
 }
 
+.center {
+	text-align: center;
+}
+
 .leftHalf {
 	float: left;
 	background-color: #26343f;
