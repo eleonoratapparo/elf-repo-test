@@ -55,6 +55,9 @@ h1 {
 	color: #00aed1;
 }
 
+button {
+	border:0;
+}
 
 table {
 	table-layout: fixed;
