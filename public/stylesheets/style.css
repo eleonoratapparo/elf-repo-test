@@ -55,18 +55,6 @@ h1 {
 	color: #00aed1;
 }
 
-.img-button {
-	display: flex;
-	border: none;
-	cursor: pointer;
-	padding: 0;
-	background-color: white;
-	height: 56px;
-	width: 56px;
-	align-items: center;
-	justify-content: center;
-}
-
 table {
 	table-layout: fixed;
 	width: 800px;
@@ -95,18 +83,18 @@ pre {
 	margin: 0;
 }
 
-#watson-fab-icon::before {
-      content: "";
-      background-image: url ('https://elf-app-assistant.eu-gb.mybluemix.net/images/penguin_icon_help.jpeg');
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      display: block;
-   }
+.WACLauncher__Button .WAC__button--base .WAC__button--primary {
+	display: none;
+}
 
-#WACLauncher__Button::before {
-      content: "";
-      background-image: url ('https://elf-app-assistant.eu-gb.mybluemix.net/images/penguin_icon_help.jpeg');
-      background-size: 100% 100%;
-      background-repeat: no-repeat;
-      display: block;
-   }
+.img-button {
+	display: flex;
+	border: none;
+	cursor: pointer;
+	padding: 0;
+	background-color: white;
+	height: 56px;
+	width: 56px;
+	align-items: center;
+	justify-content: center;
+}
