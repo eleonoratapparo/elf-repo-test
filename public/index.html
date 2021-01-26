@@ -1,31 +1,28 @@
 <!DOCTYPE html>
+
 <script>
   window.watsonAssistantChatOptions = {
-      integrationID: "19ddf878-69b7-41b3-b99b-822e8478a82d", // The ID of this integration.
-      region: "eu-gb", // The region your integration is hosted in.
-      serviceInstanceID: "02cf8e3a-8cdc-4af3-9ecf-9efe52dd6caf", // The ID of your service instance.
-      onLoad: function(instance) { instance.render(); }
-    };
+		integrationID: "19ddf878-69b7-41b3-b99b-822e8478a82d", // The ID of this integration.
+		region: "eu-gb", // The region your integration is hosted in.
+		serviceInstanceID: "02cf8e3a-8cdc-4af3-9ecf-9efe52dd6caf", // The ID of your service instance.
+		onLoad: function(instance) { instance.render(); }
+	};
   setTimeout(function(){
-    const t=document.createElement('script');
+		const t=document.createElement('script');
     t.src="https://web-chat.global.assistant.watson.appdomain.cloud/loadWatsonAssistantChat.js";
     document.head.appendChild(t);
   });
 </script>
-<html>
-</style>
-  <head>
+
+<HTML>
+  <HEAD>
     <title>Elf Assistant</title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="stylesheets/style.css">
-  </head>
-
+  </HEAD>
    <BODY>
-      <br>
-      <p style="text-align:center"><img src="http://upload.wikimedia.org/wikipedia/en/thumb/0/00/IBM_Watson_Logo_2017.png/220px-IBM_Watson_Logo_2017.png" style="width:100px;height:90px;">
-      <br>
-        Apri l'assistente con l'icona in basso a destra! ^_^</p>
+      <img class = "newappIcon" src="images/IBM_Watson_Logo_2017.png">
+      <h1>Apri l'assistente con l'icona in basso a destra! ^_^</h1>
    </BODY>
-
-</html>
+</HTML>
